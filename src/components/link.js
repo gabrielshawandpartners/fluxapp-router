@@ -3,7 +3,7 @@ import React from 'react';
 import fluxapp, { Component as FluxappComponent } from 'fluxapp';
 import _ from 'lodash';
 
-const a = React.DOM.a;
+const a = React.createFactory('a');
 
 export default class RouteLink extends FluxappComponent {
   static propTypes = {

@@ -3,7 +3,7 @@ import React from 'react';
 import _ from 'lodash';
 import { Component as FluxappComponent } from 'fluxapp';
 
-const form = React.DOM.form;
+const form = React.createFactory('form');
 
 export default class RouteForm extends FluxappComponent {
   static propTypes = {
