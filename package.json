@@ -25,7 +25,8 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.25",
-    "lodash": "^3.10.1"
+    "lodash": "^3.10.1",
+    "prop-types": "^15.6.1"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.3",

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import _ from 'lodash';
 import { Component as FluxappComponent } from 'fluxapp';
@@ -6,9 +7,9 @@ const form = React.DOM.form;
 
 export default class RouteForm extends FluxappComponent {
   static propTypes = {
-    to : React.PropTypes.string.isRequired,
-    meta : React.PropTypes.object.isRequired,
-    onSubmit : React.PropTypes.func,
+    to : PropTypes.string.isRequired,
+    meta : PropTypes.object.isRequired,
+    onSubmit : PropTypes.func,
   };
 
   static defaultProps = {

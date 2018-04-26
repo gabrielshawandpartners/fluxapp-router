@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import fluxapp, { Component as FluxappComponent } from 'fluxapp';
 import _ from 'lodash';
@@ -6,9 +7,9 @@ const a = React.DOM.a;
 
 export default class RouteLink extends FluxappComponent {
   static propTypes = {
-    to : React.PropTypes.string.isRequired,
-    meta : React.PropTypes.object.isRequired,
-    onClick : React.PropTypes.func,
+    to : PropTypes.string.isRequired,
+    meta : PropTypes.object.isRequired,
+    onClick : PropTypes.func,
   };
 
   static stores = {
